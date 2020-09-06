@@ -1,0 +1,81 @@
+body{
+background: url("http://localhost/clinicafinal/imagenes/fondo1.png") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+margin: 0;
+margin-bottom: 40px;
+}  
+
+#tmedicos{
+  border-collapse: collapse;
+  border-radius: 1em;
+  display: block;
+  overflow-x: auto;
+
+ }
+html{
+   
+  min-height: 100%;
+  position: relative 
+}
+#foto{
+    width:120px;
+    height:120px;
+    display:block;
+margin:auto;
+border-radius:150px;
+}
+img{
+    width:120px;
+    height:300px;
+    display:block;
+border-radius:10px;
+}
+table {
+    display: block;
+    overflow-x: auto;
+}
+#icono{
+   width:25px;
+    height:25px; 
+    
+border-radius:0px;
+}
+
+.logo{
+
+    width:425px;
+    height:330px;
+}
+#enter{
+    margin: auto;
+    padding: 1rem;
+    /* IMPORTANTE */
+    text-align: center;
+  }
+  footer {
+    background-color: #3C4142;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 92px;
+    color: white;
+  }
+  
+  .centerf{
+    text-align: center;
+    line-height: 4em;
+    font-weight: bold;
+  }
+  #mi_tabla{
+    overflow:auto;
+    height:500px;
+    width:auto;
+    padding:0px;
+ }
+ h3{
+  font-size: calc(1em + 1vw);
+ }
